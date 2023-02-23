@@ -17,12 +17,12 @@ public class AnimalPicker
 
             if(animalChoice.equalsIgnoreCase("dog"))
             {
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/");
                 validInput = true;
             }
             else if(animalChoice.equalsIgnoreCase("cat"))
             {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println(" _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-\n");
                 validInput = true;
             }
             else
