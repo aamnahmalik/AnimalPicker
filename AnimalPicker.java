@@ -12,7 +12,7 @@ public class AnimalPicker
 
         while(validInput == false)
         {
-            System.out.println("Would you like to see a dog, cat, fish, or bear?");
+            System.out.println("Would you like to see a dog, cat, fish, bear, or bat?");
             String animalChoice = input.next();
 
             if(animalChoice.equalsIgnoreCase("dog"))
@@ -33,6 +33,11 @@ public class AnimalPicker
             else if(animalChoice.equalsIgnoreCase("bear"))
             {
                 System.out.println(" __         __\n/  \\.-\"\"\"-./  \\\n\\    -   -    /\n |   o   o   |\n \\  .-\'\'\'-.  /\n  \'-\\__Y__/-\'\n     `---`");
+                validInput = true;
+            }
+            else if(animalChoice.equalsIgnoreCase("bat"))
+            {
+                System.out.println("    =/\\                 /\\=\n    / \\\'._   (\\_/)   _.\'/ \\n   / .\'\'._\'--(o.o)--\'_.\'\'. \\\n  /.\' _/ |`\'=/ \" \\=\'`| \\_ `.\\\n /` .\' `\\;-,\'\\___/\',-;/` \'. \'\\\n/.-\'       `\\(-V-)/`       `-.\\\n\"`            \"   \"            `\"");
                 validInput = true;
             }
             else
