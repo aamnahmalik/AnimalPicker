@@ -38,6 +38,7 @@ public class AnimalPicker
             else if(animalChoice.equalsIgnoreCase("bat"))
             {
                 System.out.println("    =/\\                 /\\=\n    / \\\'._   (\\_/)   _.\'/ \\n   / .\'\'._\'--(o.o)--\'_.\'\'. \\\n  /.\' _/ |`\'=/ \" \\=\'`| \\_ `.\\\n /` .\' `\\;-,\'\\___/\',-;/` \'. \'\\\n/.-\'       `\\(-V-)/`       `-.\\\n\"`            \"   \"            `\"");
+                validInput = true;
             }
             else
             {
